@@ -1,7 +1,7 @@
 # Rule_Engine-with-AST
 
 ## Description
-A brief description of your application. Explain what it does, its purpose, and any key features.
+A Rule Engine is a software component that allows users to define, manage, and execute business rules and logic in a flexible and scalable manner. This type of engine is commonly used in various applications, such as decision-making systems, workflow automation, and data processing. One of the key features of a Rule Engine is its ability to interpret and evaluate rules defined in a structured format, often represented using Abstract Syntax Trees (ASTs).
 
 ## Technologies Used
 - **Frontend**: React.js
