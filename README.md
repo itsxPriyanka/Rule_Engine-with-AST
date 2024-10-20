@@ -50,6 +50,6 @@ Run the Application Start the backend server:
 node server.js
 
 
-In a new terminal, navigate to the client directory (if applicable) and start the React app:
+In a new terminal, navigate to the client directory  and start the React app:
 npm start
 
