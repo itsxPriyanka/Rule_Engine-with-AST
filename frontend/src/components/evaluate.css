@@ -1,0 +1,180 @@
+/* evaluate.css */
+
+.evaluate-rule-container {
+  max-width: 600px; /* Set a max width for the form container */
+  margin: 30px auto; /* Center the form on the page */
+  padding: 20px; /* Padding inside the container */
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  font-family: Arial, sans-serif; /* Font for the text */
+}
+
+.evaluate-rule-form {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Vertical alignment of children */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark text color */
+}
+
+select,
+.textarea-field,
+.submit-button,
+.reset-button {
+  margin-bottom: 15px; /* Space between inputs */
+  padding: 10px; /* Padding inside the inputs */
+  font-size: 16px; /* Font size */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners for inputs */
+  transition: border-color 0.3s; /* Transition for border color */
+}
+
+select:focus,
+.textarea-field:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.textarea-field {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 100px; /* Minimum height for textarea */
+}
+
+.submit-button,
+.reset-button {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: none; /* Remove default border */
+}
+
+.submit-button:hover,
+.reset-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.reset-button {
+  background-color: #dc3545; /* Red for reset button */
+}
+
+.reset-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.rule-string-container {
+  margin-top: 15px; /* Space above the rule string container */
+  padding: 10px; /* Padding inside the container */
+  background-color: #e9ecef; /* Light gray background for rule string */
+  border: 1px solid #ccc; /* Border around rule string */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.error-message {
+  color: #dc3545; /* Red color for error messages */
+  text-align: center; /* Center the error message */
+}
+
+.results-container {
+  margin-top: 20px; /* Space above the results container */
+  text-align: center; /* Center results text */
+}
+
+.overall-result-message {
+  font-weight: bold; /* Bold text for result message */
+  color: #333; /* Dark text color */
+}
+
+
+
+
+/* evaluate.css */
+
+.evaluate-rule-container {
+  max-width: 600px; /* Set a max width for the form container */
+  margin: 30px auto; /* Center the form on the page */
+  padding: 20px; /* Padding inside the container */
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  font-family: Arial, sans-serif; /* Font for the text */
+}
+
+.evaluate-rule-form {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Vertical alignment of children */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark text color */
+}
+
+select,
+.textarea-field,
+.submit-button,
+.reset-button {
+  margin-bottom: 15px; /* Space between inputs */
+  padding: 10px; /* Padding inside the inputs */
+  font-size: 16px; /* Font size */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners for inputs */
+  transition: border-color 0.3s; /* Transition for border color */
+}
+
+select:focus,
+.textarea-field:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.textarea-field {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 100px; /* Minimum height for textarea */
+}
+
+.submit-button,
+.reset-button {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: none; /* Remove default border */
+}
+
+.submit-button:hover,
+.reset-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.reset-button {
+  background-color: #dc3545; /* Red for reset button */
+}
+
+.reset-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.rule-string-container {
+  margin-top: 15px; /* Space above the rule string container */
+  padding: 10px; /* Padding inside the container */
+  background-color: #e9ecef; /* Light gray background for rule string */
+  border: 1px solid #ccc; /* Border around rule string */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.error-message {
+  color: #dc3545; /* Red color for error messages */
+  text-align: center; /* Center the error message */
+}
+
+.results-container {
+  margin-top: 20px; /* Space above the results container */
+  text-align: center; /* Center results text */
+}
+
+.overall-result-message {
+  font-weight: bold; /* Bold text for result message */
+  color: #333; /* Dark text color */
+}
