@@ -15,7 +15,11 @@ A brief description of your application. Explain what it does, its purpose, and 
 ## Features
 - User-friendly interface
 - Dynamic data fetching and storage
-- [Any other features]
+- create rules
+- evaluate rules
+- combine rules
+- combine pre-combined rules and save in db
+  
 
 ## Getting Started
 
